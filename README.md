@@ -6,7 +6,7 @@
 
 > Browse [source code](https://github.com/NetFrameworkTemplates/selfhost-netfx), view live demo [selfhost.web-templates.io](http://selfhost.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
 
-    $ dotnet tool install --global web
+    $ dotnet tool install --global x
 
-    $ web new selfhost-netfx ProjectName
+    $ x new selfhost-netfx ProjectName
 
