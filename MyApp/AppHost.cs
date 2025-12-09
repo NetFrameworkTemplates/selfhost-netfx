@@ -19,6 +19,9 @@ namespace MyApp
         /// </summary>
         public override void Configure(Container container)
         {
+            SetConfig(new HostConfig {
+                DefaultRedirectPath = "/metadata",
+            });
             //Config examples
             //this.Plugins.Add(new PostmanFeature());
             //this.Plugins.Add(new CorsFeature());
